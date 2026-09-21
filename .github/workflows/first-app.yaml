@@ -1,7 +1,7 @@
 name: push first-app to GHCR
 on:
   push:
-    # Only run this workflow when the following files change:
+    # Only run this workflow when the following files change: 
     paths:
       - first-app/**
       - .github/workflows/first-app.yaml
